@@ -1,0 +1,73 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb_backup
+**/.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+
+# --- Environment / Dependency Files ---
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# --- Data / Outputs ---
+*.csv
+*.tsv
+*.dat
+*.out
+*.log
+*.tmp
+*.bak
+*.h5
+*.pkl
+*.json
+*.feather
+*.parquet
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# --- OS-specific junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editor-specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Jupyter Metadata ---
+.jupyter/
+profile_default/
+.jupyter/lab/workspaces/
+
+# --- Notebooks Output Files ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- qBraid & Cloud-specific (if relevant) ---
+.qbraid/
+.qbraid_env/
+*.qbraid_cache/
